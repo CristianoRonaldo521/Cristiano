@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garba Dance Celebration</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #ff7e00, #ffdb00);
+            color: #5e3a22;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .dance-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        img {
+            max-width: 200px;
+            border: 5px solid #c0a16b;
+            border-radius: 15px;
+            animation: rotate 2s infinite linear;
+            transition: transform 0.3s;
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(180deg); }
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #4a2200;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Celebrate Navratri with Garba!</h1>
+    <div class="dance-container">
+        <img src="https://i.pinimg.com/736x/74/20/fd/7420fda152c2661d2b5cde5a6f7aa954.jpg" alt="Dancer 1">
+        <img src="https://i.pinimg.com/736x/74/20/fd/7420fda152c2661d2b5cde5a6f7aa954.jpg" alt="Dancer 2">
+        <img src="https://i.pinimg.com/736x/74/20/fd/7420fda152c2661d2b5cde5a6f7aa954.jpg" alt="Dancer 3">
+        <img src="https://i.pinimg.com/736x/74/20/fd/7420fda152c2661d2b5cde5a6f7aa954.jpg" alt="Dancer 4">
+        <img src="https://i.pinimg.com/736x/74/20/fd/7420fda152c2661d2b5cde5a6f7aa954.jpg" alt="Dancer 5">
+    </div>
+    <div class="footer">
+        <p>Let the rhythm of Garba lift your spirits!</p>
+    </div>
+</body>
+</html>
+
+        
